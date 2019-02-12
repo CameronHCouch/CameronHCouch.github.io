@@ -2191,6 +2191,10 @@ input, select, textarea {
 			padding: 0.5em 0;
 		}
 
+		.button.no-top{
+			border-top: none;
+		}
+
 /* Wrapper */
 
 	.wrapper {
