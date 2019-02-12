@@ -2324,6 +2324,21 @@ input, select, textarea {
 				font-weight: 300;
 			}
 
+		#header .name-and-resume {
+			display: flex;
+			align-items: center;
+		}
+
+		#header .name-and-resume .button {
+			margin-left: 25px;
+			min-width: 100px;
+		}
+
+		#header .name-and-resume .button a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+
 		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;
@@ -2335,6 +2350,7 @@ input, select, textarea {
 			#header nav ul {
 				list-style: none;
 				padding-left: 0;
+				margin-top: 0.75em;
 			}
 
 				#header nav ul li {
