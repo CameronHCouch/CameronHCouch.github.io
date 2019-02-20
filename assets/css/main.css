@@ -237,7 +237,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			
 			.container {
 				width: 100%;
 			}
@@ -245,6 +245,7 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
+
 
 		}
 
@@ -1472,6 +1473,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			.button.no-top{
+				border-top: 0px solid rgb(124, 128, 129);
+			}
 
 			.row {
 				display: flex;
@@ -2336,6 +2340,7 @@ input, select, textarea {
 		#header .name-and-resume .button {
 			margin-left: 25px;
 			min-width: 100px;
+			max-width: 100px;
 		}
 
 		#header .name-and-resume .button a {
@@ -2904,6 +2909,10 @@ input, select, textarea {
 				padding: 0.75em 0;
 			}
 
+			.button.no-top{
+				border-top: 1px solid rgb(124, 128, 129);
+			}
+
 		/* Featured Icons */
 
 			ul.featured-icons {
@@ -2926,12 +2935,6 @@ input, select, textarea {
 			ul.buttons li {
 				display: block;
 				padding: 1em 0 0 0;
-			}
-
-		/* Header */
-
-			#header {
-				display: none;
 			}
 
 		/* Banner */
@@ -2996,7 +2999,7 @@ input, select, textarea {
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			/* #navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3154,7 +3157,7 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
-	}
+	} */
 
 /* Mobile */
 
@@ -3178,6 +3181,12 @@ input, select, textarea {
 
 			p {
 				text-align: justify;
+			}
+
+		/* Header Icons */
+
+			nav ul.icons {
+				display: none;
 			}
 
 		/* Section/Article */
@@ -3343,7 +3352,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			#navButton .toggle:before {
+			/* #navButton .toggle:before {
 				top: 8px;
 				left: 8px;
 				width: 50px;
@@ -3356,6 +3365,6 @@ input, select, textarea {
 				left: 8px;
 				width: 50px;
 				height: 34px;
-			}
+			} */
 
 	}
