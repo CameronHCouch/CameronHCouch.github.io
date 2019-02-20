@@ -1473,9 +1473,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-			.button.no-top{
-				border-top: 0px solid rgb(124, 128, 129);
-			}
 
 			.row {
 				display: flex;
