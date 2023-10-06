@@ -1993,15 +1993,6 @@ input, select, textarea {
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-angellist {
-				background: #da83ae;
-				color: #fff;
-			}
-
-				.icon.circle.fa-angellist:hover {
-					background: #df93b8;
-				}
-
 		.icon.featured {
 			cursor: default;
 			display: block;
