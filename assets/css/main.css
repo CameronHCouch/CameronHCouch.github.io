@@ -506,6 +506,10 @@ input, select, textarea {
 				align-items: stretch;
 			}
 
+				.row.row2 {
+					margin-top: 20px;
+				}
+
 				.row > * {
 					box-sizing: border-box;
 				}
@@ -755,6 +759,10 @@ input, select, textarea {
 				box-sizing: border-box;
 				align-items: stretch;
 			}
+
+				.row.row-2 {
+					margin-top: 10px;
+				}
 
 				.row > * {
 					box-sizing: border-box;
@@ -1900,6 +1908,12 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 		}
+
+			.image.featured.book-finder img {
+				height: 169.91px;
+				object-fit: cover; 
+				object-position: 100% 0;
+			}
 
 			.image.featured img {
 				display: block;
